@@ -1,0 +1,35 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="row p-2">
+    <div class="col border  text-center d-flex justify-content-center align-items-center" style="height:200px">
+        <button authcode="test1" type="submit" class="btn btn-primary btn-lg">test1 ボタン</button>
+    </div>
+    <div class="col border  text-center d-flex justify-content-center align-items-center" style="height:200px">
+        <button authcode="test2" type="submit" class="btn btn-primary btn-lg">test2 ボタン</button>
+    </div>
+    <div class="col border  text-center d-flex justify-content-center align-items-center" style="height:200px">
+        <button type="submit" class="btn btn-primary btn-lg">authcodeなし ボタン</button>
+    </div>
+</div>
+<br />
+<div class="row p-2 text-center d-flex justify-content-center align-items-center" style="height:200px">
+    <div class="col border  text-center d-flex justify-content-center align-items-center" style="height:200px">
+        <div authcode="test1">
+            test1 div
+        </div>
+    </div>
+    <div class="col border  text-center d-flex justify-content-center align-items-center" style="height:200px">
+        <div authcode="test2">
+            test2 div
+        </div>
+    </div>
+    <div class="col border  text-center d-flex justify-content-center align-items-center" style="height:200px">
+        <div>
+            authcodeなし div
+        </div>
+    </div>
+</div>
